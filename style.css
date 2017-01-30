@@ -1,0 +1,167 @@
+body{
+  background: url("wood.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+header {
+    width: 100%;
+    background: OliveDrab;
+    height: 120px;
+    z-index: 5;
+}
+
+.title {
+  font-size: 60px;
+  font-style: italic;
+  padding-top: 10px;
+  text-align: center;
+}
+
+a:link{
+  color: #3c4a10;
+  text-decoration: none;
+
+}
+
+header a:hover{
+  color: #000000!important;
+  text-decoration: none;
+}
+
+a:active{
+  color: #000000;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #3c4a10;
+  text-decoration: none;
+}
+
+#fixed {
+  z-index:5;
+ position:fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+}
+.menu{
+  position: relative;
+  width: 240px;
+  margin: 0 auto;
+  top: 42px;
+  left: 200px;
+  z-index: 10;
+
+}
+
+.fixed2{
+  position: relative;
+  width: 240px;
+  margin: 0 auto;
+  top: 13px;
+  right: 150px;
+
+}
+
+.menu li{
+  display: inline;
+  margin-right: 300px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.fixed2 li{
+  display: inline;
+  margin-right: 300px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.logo{
+  position:relative;
+  width: 240px;
+  margin: 0 auto;
+  top: -48px;
+  right: -20px;
+}
+
+section{
+  position: absolute;
+  top: 100px;
+}
+
+
+
+
+footer{
+  background: Black;
+  color: White;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0; left: 0;
+  z-index: 3;
+}
+
+.footer-bg {
+ background: #000;
+}
+
+.copyright {
+ width: 550px;
+ padding: 0 10px 10px;
+ margin: auto;
+
+ color: #526118;
+ font-family: sans-serif;
+}
+.copyright p {
+ font-size: 14.5px;
+margin-top: 14;
+
+
+.copyright p a {
+  left: 100px;
+}
+
+.copyright a:hover{
+  color: #BFBFBF!important;
+
+}
+
+#fix_text{
+  margin: auto;
+  position: relative;
+  bottom: -20px;
+  width: 100%;
+padding-bottom: 200px;
+  z-index: 2;
+
+
+}
+
+#text1{
+  color: #262626;
+
+  position: relative;
+
+  left:0;
+  z-index: 2;
+ height: auto;
+  width: 1000 auto;
+}
+
+#text1 h1{
+
+  font-size: 50px;
+}
+
+#text1 p{
+  font-size: 30px;
+
+}
